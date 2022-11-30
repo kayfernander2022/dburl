@@ -7,8 +7,8 @@ require("dotenv").config();
 
 //Routes 
 
-app.get('/', (request, response) => {
-  response.send(PORT)
+app.get('/', (req, res) => {
+  res.send(PORT)
 })
 
 
